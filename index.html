@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget contatti</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <header>
+      <h1>Widget contatti in JavaScript</h1>
+    </header>
+
+    <form id="Find">
+      <label for="search">Cerca tra i contatti:</label>
+      <input type="text" name="search" id="search" placeholder="es: pippo" autocomplete="off" />
+      <button>Cerca</button>
+    </form>
+
+    <ul>
+
+      <!-- 
+      <li>
+        <h3>Rick Sanchez</h3>
+        <p><strong>Phone:</strong> <a href="tel:+39 3657345657">+39 3657345657</a></p>
+        <p><strong>Email:</strong> <a href="mailto:rick@rickandmorty.com">rick@rickandmorty.com</a></p>
+      </li>
+      -->
+
+    </ul>
+    <form id="Add">
+            <h2>Inserisci nuovo contatto</h2>
+            <label for="nome">Nome e Cognome*</label>
+            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo Nome" autocomplete="off" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="Inserisci la tua email*" autocomplete="off" required>
+
+            <label for="tel">Telefono*</label>
+            <input type="tel" id="tel" name="tel" placeholder="Inserisci numero di telefono*" autocomplete="off" required>
+
+            <button type="submit" id="BtnAdd">Inserisci contatto</button>
+      
+      </form>
+  
+
+
+    </form>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+</html> 
